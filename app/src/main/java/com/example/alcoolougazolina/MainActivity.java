@@ -32,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
     }
     private String verifyAlcoolOrGazoline(Double alcool,Double gazoline){
         Double result = alcool / gazoline;
-        return (result < 0.7? "Gasolina":"Alcool");
+        return (result < 0.7? "Alcool":"Gasolina");
     }
 }
